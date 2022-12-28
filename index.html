@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unident</title>
+    <link rel="stylesheet" href="../css/estilos_index.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <div class="cabecera">
+                <img src="../imagenes/logo.jpg" alt="">
+                <nav>
+                    <ul class="menu-horizontal">
+                        <li><a href="/pagina/index.html">Inicio</a></li>
+                        <li>
+                            <a href="/pagina/servicios.html">Servicios</a>
+                            <ul class="menu-vertical">
+                                <li><a href="/pagina/servicios.html#esteticaRef">Estética Dental</a></li>
+                                <li><a href="/pagina/servicios.html#ortodonciaRef">Ortodoncia</a></li>
+                                <li><a href="/pagina/servicios.html#endodonciaRef">Endodoncia</a></li>
+                                <li><a href="/pagina/servicios.html#implanteRef">Implante Dental</a></li>
+                                <li><a href="/pagina/servicios.html#odontoRef">Odontopediatría</a></li>
+                                <li><a href="/pagina/servicios.html#protesisRef">Prótesis Dental</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/pagina/Protocolos.html">Protocolos</a></li>
+                        <li><a href="/pagina/Nosotros.html">Nosotros</a></li>
+                        <li><a href="/pagina/Contactenos.html">Contáctenos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        <main>
+            <section id="somos-unident">
+                <div class="somos">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2dlFWNP34XM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                    </div>               
+                    <div class="texto">
+                        <h2>¡HOLA, SOMOS UNIDENT!</h2>
+                        <br>
+                        <p>Más de 9 años brindando sonrisas hermosas a miles de personas de Trujillo nos respaldan, contamos con el Staff de dentistas especialistas altamente calificados, ofreciéndote el mejor servicio dental profesional que necesitas</p>
+                    </div> 
+
+                </div>
+                               
+            </section>
+
+            <h3 id="h3promociones">PROMOCIONES DEL MES</h3>
+            <section id="promociones">
+                <div class="fotopromociones"">
+                    <figure>
+                        <img src="../imagenes/promo1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="../imagenes/promo2.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="form">
+                    <form action="consulta_pacientes.php" method="post">
+                        <h3> CONSULTA AHORA </h3>
+                        <input  type="text" name="name" placeholder="*Su Nombre" required pattern="[A-Z,a-z]{1-25}"> <br>
+                        <input  type="email" name="email" placeholder="*Su correo" required> <br>
+                        <input  type="tel" name="phone" placeholder="*Teléfono / celular" required maxlength="9"> <br>
+                        <textarea id="" cols="40" rows="10" placeholder="*¿Cuál es su consulta?" required></textarea>
+                        <input id="submit" type="submit" value="Enviar consulta"> 
+                    </form>
+
+                </div>
+                
+            </section>
+            <h3>NUESTROS SERVICIOS</h3>
+            <section id="servicios">
+                <div class="serv">
+                    <figure>
+                        <img src="../imagenes/estetica_dental.jpg" alt="">
+                        <figcaption>Estética dental </figcaption>
+                        <a href="/Diego_Saucedo/servicio01.html">Saber más</a>
+                    </figure>
+                    <figure>
+                        <img src="../imagenes/ortodoncia.jpg" alt="">
+                        <figcaption>Ortodoncia</figcaption>
+                        <a href="/Diego_Saucedo/servicio02.html">Saber más</a>
+                    </figure>
+                    <figure>
+                        <img src="../imagenes/endodoncia.jpg" alt="">
+                        <figcaption>Endodoncia</figcaption>
+                        <a href="/Diego_Saucedo/servicio03.html">Saber más</a>
+                    </figure>
+                </div>
+                <div class="serv">
+                    <figure>
+                        <img src="../imagenes/implante_dental.jpg" alt="">
+                        <figcaption>Implante dental</figcaption>
+                        <a href="/Diego_Saucedo/servicio04.html">Saber más</a>
+                    </figure>
+                    <figure>
+                        <img src="../imagenes/odontopediatria.jpg" alt="">
+                        <figcaption>Odontopediatría</figcaption>
+                        <a href="/Diego_Saucedo/servicio05.html">Saber más</a>
+                    </figure>
+                    <figure>
+                        <img src="../imagenes/protesis_dental.jpg" alt="">
+                        <figcaption>Prótesis dental</figcaption>
+                        <a href="/Diego_Saucedo/servicio06.html">Saber más</a>
+                    </figure>
+                </div>
+
+            </section>
+            <h3 id="h3ayudarte">ESTAMOS PARA AYUDARTE</h3>
+            <section id="estamos-ayudarte">               
+                <div class="divimg-ayudarte">
+                    <img src="../imagenes/banner_unident.jpg" alt="">
+                </div>
+                <div class="pdiv-ayudarte">
+                    <p>
+                        Unident, sonríele a la vida. Nos comprometemos con tu salud dental. Nuestro equipo de profesionales te ofrecen calidad, ética y responsabilidad.
+                    </p>
+                </div>
+            </section>
+
+            <h3>NUESTROS PACIENTES</h3>
+            <section id="pacientes">               
+                <figure>
+                    <img src="../imagenes/paciente1.jpg" alt="">
+                    
+                </figure>
+                <figure>
+                    <img src="../imagenes/paciente2.jpg" alt="">
+                    
+                </figure>
+                <figure>
+                    <img src="../imagenes/paciente3.jpg" alt="">
+                    
+                </figure>
+            </section>
+            <h3>NUESTRO STAFF DE ESPECIALISTAS</h3>
+            <section id="staff">
+                <figure>
+                    <img src="../imagenes/especialista1.jpg" alt="">
+                    <h4>Dr. Carlos Villalobos</h4> <br>
+                    <figcaption>Director General <br> C.O.P 59865</figcaption>
+                    
+                </figure>
+                <figure>
+                    <img src="../imagenes/especialista2.jpg" alt="">
+                    <h4>Dra. Natali Corcuera</h4> <br>
+                    <figcaption>Estética Dental <br> C.O.P 45821</figcaption>
+                </figure>
+                <figure>
+                    <img src="../imagenes/especialista3.jpg" alt="">
+                    <h4>Dra. Lesly Chavez</h4> <br>
+                    <figcaption>Periodoncia e implantes <br> C.O.P 45213 </figcaption>
+                </figure>
+                <figure>
+                    <img src="../imagenes/especialista4.jpg" alt="">
+                    <h4>Dra. Sandra Torres</h4> <br>
+                    <figcaption>Ortodoncia y Ortopedia <br> C.O.P 31478 <br> <br> <br> <br></figcaption>
+                </figure>
+            </section>
+        </main>
+        <footer>
+            <div id="pie">
+                <div class="divfooter1">
+                    <img src="../imagenes/logo.jpg" alt="">
+                </div>
+                <div class="divfooter2">
+                    <div class="iconos">
+                        <img src="../imagenes/iconotiktok.jpg" alt="">
+                        <img src="../imagenes/icono_instagram.jpg" alt="">
+                        <img src="../imagenes/icono_youtube.jpg" alt="">
+                        <img src="../imagenes/icono_fb.jpg" alt="">   
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="copi">
+                <p>&copy; Depaz Ramirez 2022</p>
+            </div>
+            
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>
